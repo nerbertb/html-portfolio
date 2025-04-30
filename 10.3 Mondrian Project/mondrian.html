@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        height: 900px;
+        width: 900px;
+        display: grid;
+        background-color: black;
+        grid-template-columns: 90px 300px 300px 180px;
+        grid-template-rows: 370px 200px 250px 50px;
+        gap: 10px;
+    }
+
+    .item {
+        background-color: #E2E3DE;
+    }
+
+    .red {
+        grid-column: span 2;
+        background-color: #E70604;
+    }
+
+    .side {
+        grid-area: 1/3/2/5;
+    }
+
+    .btm {
+
+        grid-column: span 2;
+
+    }
+
+    .yellow {
+        background-color: #FBD005;
+        grid-row: span 2;
+    }
+
+    .blue {
+        background-color: #19115A;
+    }
+
+    .right {
+        grid-row: span 2;
+    }
+
+    .abv {
+        grid-area:2/3/3/5;
+    }
+
+    .left {
+        grid-row: span 2;
+    }
+    
+
+
+</style>
+
+
+<body>
+    <div class="container">
+        <div class="red item"></div>
+        <div class="side item"></div>
+        <div class="btm item"></div>
+        <div class="yellow item"></div>
+        <div class="left item"></div>
+        <div class="abv item"></div>
+        <div class="blue item"></div>
+        <div class="right item"></div>
+        <div class=" item"></div>
+        
+        
+        
+    </div>
+</body>
+</html>
