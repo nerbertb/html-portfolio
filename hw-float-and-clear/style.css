@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+h2 {
+  margin: 10px 0px 30px 0px;
+}
+/* HEADER */
+.logo {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  float: left;
+}
+
+.header, .footer {
+  background-color: #87cefa;
+
+  height: 50px;
+  width: 100%;
+}
+
+.logo::after {
+  content: '';
+  display: block;
+}
+
+.header p {
+  padding-top: 5px;
+}
+
+/* OUR SERVICES */
+
+.top-feature, .bot-feature,
+.upper-left,
+.upper-right,
+.lower-left,
+.lower-right {
+  border-radius: 15px;
+}
+
+
+/* White Center Box */
+.top-feature, .bot-feature {
+  background-color: #ffffff;
+  width: 60%;
+  height: 540px;
+  position: relative;
+  padding: 20px;
+  margin: 20px 0px;
+  left: 20%;
+}
+
+
+/* Inner Card */
+.bg-card {
+  background-color: #eeeeee;
+  height: 200px;
+  width: 48%;
+}
+
+/* Inner Card's Content*/
+
+.upper-left, .lower-left {
+  float: left;
+  padding: 20px 20px 0px 0px;
+  margin-bottom: 20px;
+  align-content: center;
+}
+
+.upper-right, .lower-right {
+  float: right;
+  padding: 20px 20px 0px 0px;
+  margin-bottom: 20px;
+  align-content: center;
+}
+
+
+/* CARD HEADERS SPACES*/
+
+.card-title {
+  color: #3a5256;
+  position: relative;
+  margin-bottom: 20px;
+  left: 20px;
+}
+
+/* IMG */
+
+.icon-img {
+  height: 100px;
+  float: left;
+  margin: 0 20px;
+}
+
+.new-jeans {
+  height: 150px;
+  border-radius: 50%;
+  float: left;
+  margin: 15px;
+}
+
+/* SUB-TITLE */
+span {
+  font-size: 13px;
+}
+
+
+/* FOOTER */
+.footer {
+  color: #ffffff;
+  text-align: center;
+}
