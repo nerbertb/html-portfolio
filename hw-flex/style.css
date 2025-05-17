@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+h2 {
+  margin: 10px 0px 30px 0px;
+}
+/* HEADER */
+.logo {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.header {
+  position: fixed;
+}
+
+.header,
+.footer {
+  background-color: #87cefa;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* OUR SERVICES */
+
+/* White Center Box */
+
+
+.top-feature {
+  margin-top: 70px;
+}
+
+.top-feature,
+.bot-feature {
+  background-color: #ffffff;
+  width: 60%;
+  height: 540px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.upper-cards,
+.lower-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* Inner Card */
+.bg-card {
+  display: flex;
+  background-color: #eeeeee;
+  height: 200px;
+  width: 48%;
+  padding: 20px 20px 0px 0px;
+  margin-bottom: 20px;
+  align-items: center;
+  border-radius: 15px;
+}
+
+/* CARD HEADERS SPACES*/
+
+.card-title {
+  color: #3a5256;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* IMG */
+
+.icon-img {
+  height: 100px;
+
+  margin: 0 20px;
+}
+
+.new-jeans {
+  height: 150px;
+  border-radius: 50%;
+  
+  margin: 15px;
+}
+
+/* SUB-TITLE */
+span {
+  font-size: 13px;
+}
+
+/* FOOTER */
+.footer {
+  color: #ffffff;
+  justify-content: center;
+  flex-direction: column;
+}
