@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/** 👆 Lets reset all margin, paddings and box-sizing */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/** 👆 Give a nice font */
+
+img {
+  width: 100%;
+}
+/** 👆 Lets make all images to be responsive */
+
+.container {
+  display: grid;
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/** 👆 Your initial style of container */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  align-items: center;
+}
+
+nav {
+  align-content: flex-end;
+}
+ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 880px 380px;
+  grid-template-rows: 400px 150px 200px;
+  gap: 20px;
+}
+
+.banner > img {
+  height: 400px;
+  width: 880px;
+}
+
+.title1 {
+  color: #a7982b;
+}
+aside {
+  background-color: #4a2d6e;
+  grid-row: span 2;
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+aside article {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.popular {
+  display: flex;
+  grid-template-columns: 200px 680px;
+  
+  
+}
+
+
+
+.popular h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  
+}
+
+.read {
+    position: relative;
+}
+
+
+.read-more {
+    background-color: #9051A8;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.trendings {
+  display: flex;
+  justify-content: center;
+  grid-column: span 2;
+}
+
+.trendings article {
+  display: flex;
+}
+
+.trendings h2 {
+    font-size: 1.7rem;
+    
+}
+.trendings img {
+  width: 200px;
+  height: 150px;
+  margin-right: 10px;
+}
